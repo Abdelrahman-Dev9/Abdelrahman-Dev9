@@ -1,213 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="1180" height="610" viewBox="0 0 1180 610" role="img"
-  aria-label="Abdelrahman Mahmoud — React Native Developer profile banner. Mobile: React Native, Expo, TypeScript. Frontend: React, JavaScript, TypeScript. Backend: Node.js, Express.js, NestJS. Education: Computer Science and Information Technology, Suez Canal University, 2021–2025.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610"
+  role="img" aria-label="Abdelrahman Mahmoud, React Native Developer. Skills: React Native, Expo, TypeScript, React, Node.js, NestJS. Education: Computer Science and Information Technology, Suez Canal University, 2021 to 2025.">
   <title>Abdelrahman Mahmoud — React Native Developer</title>
-  <desc>Abdelrahman Mahmoud — React Native Developer profile banner. Mobile: React Native, Expo, TypeScript. Frontend: React, JavaScript, TypeScript. Backend: Node.js, Express.js, NestJS. Education: Computer Science and Information Technology, Suez Canal University, 2021–2025.</desc>
+  <desc>Abdelrahman Mahmoud, React Native Developer. Skills: React Native, Expo, TypeScript, React, Node.js, NestJS. Education: Computer Science and Information Technology, Suez Canal University, 2021 to 2025.</desc>
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712"/>
-      <stop offset="45%" stop-color="#07111F"/>
-      <stop offset="100%" stop-color="#0B1220"/>
-      <animate attributeName="x2" values="100%;80%;100%" dur="14s" repeatCount="indefinite"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="20%" cy="30%" r="55%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
-      <animate attributeName="cx" values="20%;35%;20%" dur="16s" repeatCount="indefinite"/>
+    <radialGradient id="glow" cx="82%" cy="12%" r="42%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="85%" cy="70%" r="50%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-      <animate attributeName="cy" values="70%;55%;70%" dur="18s" repeatCount="indefinite"/>
-    </radialGradient>
-    <radialGradient id="glowC" cx="55%" cy="15%" r="40%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.15"/>
-      <stop offset="50%" stop-color="rgba(34,211,238,0.45)" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#10B981" stop-opacity="0.15"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="100%;200%;100%" dur="9s" repeatCount="indefinite"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="rgba(148,163,184,0.06)" stroke-width="1"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(148,163,184,0.035)" stroke-width="1"/>
     </pattern>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.28"/>
+    <filter id="shadow" x="-6%" y="-6%" width="112%" height="118%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.32"/>
     </filter>
-    <filter id="asciiGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="0.55" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <clipPath id="frameClip">
-      <rect x="0" y="0" width="1180" height="610" rx="22" ry="22"/>
-    </clipPath>
-    <clipPath id="leftClip">
-      <rect x="24" y="64" width="430" height="522" rx="16" ry="16"/>
+    <clipPath id="frame">
+      <rect width="1180" height="610" rx="18" ry="18"/>
     </clipPath>
   </defs>
 
-  <g clip-path="url(#frameClip)">
-    <rect width="1180" height="610" fill="url(#bgGrad)"/>
-    <rect width="1180" height="610" fill="url(#glowA)"/>
-    <rect width="1180" height="610" fill="url(#glowB)"/>
-    <rect width="1180" height="610" fill="url(#glowC)"/>
-    <rect width="1180" height="610" fill="url(#grid)" opacity="0.9"/>
-    <g id="particles" opacity="0.85">
-<circle cx="120" cy="80" r="1.8" fill="rgba(34,211,238,0.35)"><animate attributeName="cy" values="80;62;80" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.7;0.25" dur="9.6s" repeatCount="indefinite"/></circle>
-<circle cx="280" cy="520" r="1.4" fill="rgba(34,211,238,0.35)"><animate attributeName="cy" values="520;502;520" dur="15s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.7;0.25" dur="12.0s" repeatCount="indefinite"/></circle>
-<circle cx="900" cy="90" r="2.0" fill="rgba(34,211,238,0.35)"><animate attributeName="cy" values="90;72;90" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.7;0.25" dur="8.0s" repeatCount="indefinite"/></circle>
-<circle cx="1050" cy="480" r="1.6" fill="rgba(34,211,238,0.35)"><animate attributeName="cy" values="480;462;480" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.7;0.25" dur="11.2s" repeatCount="indefinite"/></circle>
-<circle cx="700" cy="40" r="1.2" fill="rgba(34,211,238,0.35)"><animate attributeName="cy" values="40;22;40" dur="18s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.7;0.25" dur="14.4s" repeatCount="indefinite"/></circle>
-<circle cx="500" cy="560" r="1.5" fill="rgba(34,211,238,0.35)"><animate attributeName="cy" values="560;542;560" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.7;0.25" dur="8.8s" repeatCount="indefinite"/></circle>
-</g>
+  <g clip-path="url(#frame)">
+    <rect width="1180" height="610" fill="url(#bg)"/>
+    <rect width="1180" height="610" fill="url(#glow)"/>
+    <rect width="1180" height="610" fill="url(#grid)"/>
 
-    <!-- Top editor chrome -->
-    <g id="top-nav">
-      <circle cx="36" cy="28" r="6" fill="#EF4444"/>
-      <circle cx="56" cy="28" r="6" fill="#F59E0B"/>
-      <circle cx="76" cy="28" r="6" fill="#22C55E"/>
-      <text x="220" y="33" fill="#94A3B8"
+    <!-- Title bar -->
+    <rect x="0" y="0" width="1180" height="42" fill="#0B1220"/>
+    <line x1="0" y1="42" x2="1180" y2="42" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="26" cy="21" r="5" fill="#FF5F57"/>
+    <circle cx="46" cy="21" r="5" fill="#FEBC2E"/>
+    <circle cx="66" cy="21" r="5" fill="#28C840"/>
+    <text x="590" y="26" text-anchor="middle" fill="#94A3B8"
+      font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12"
+      >abdelrahman@dev9 — profile</text>
+    <circle cx="1092" cy="21" r="3.2" fill="#22C55E"/>
+    <text x="1102" y="25" fill="#22C55E"
+      font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11"
+      >online</text>
+
+    <!-- Left -->
+    <g filter="url(#shadow)">
+      <rect x="28" y="56" width="380" height="526" rx="12" ry="12"
+        fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <rect x="28" y="56" width="380" height="38" rx="12" ry="12" fill="#0F172A"/>
+      <rect x="28" y="80" width="380" height="14" fill="#0F172A"/>
+      <line x1="28" y1="94" x2="408" y2="94" stroke="#1E293B" stroke-width="1"/>
+      <text x="46" y="80" fill="#38BDF8"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11">Code   Projects   Stack   Contact</text>
-      <text x="590" y="33" text-anchor="middle" fill="#94A3B8"
+        font-size="11" letter-spacing="1.6" font-weight="600">IDENTITY</text>
+      
+      <!-- monogram -->
+      <circle cx="218.0" cy="206" r="86" fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.35"/>
+      <circle cx="218.0" cy="206" r="76" fill="#0B1220" stroke="#1E293B" stroke-width="1.5"/>
+      <circle cx="218.0" cy="206" r="76" fill="none" stroke="#38BDF8" stroke-width="1.5" opacity="0.7"/>
+      <text x="218.0" y="220" text-anchor="middle" fill="#F8FAFC"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="12">abdelrahman@dev9:~</text>
-      <text x="1080" y="33" text-anchor="end" fill="#10B981"
+        font-size="40" font-weight="700" letter-spacing="3">AM</text>
+
+      <text x="218.0" y="326" text-anchor="middle" fill="#F8FAFC"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11" letter-spacing="1.5">[ ONLINE ]</text>
+        font-size="15" font-weight="600">Abdelrahman Mahmoud</text>
+      <text x="218.0" y="348" text-anchor="middle" fill="#38BDF8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="12">React Native Developer</text>
+
+      <line x1="76" y1="374" x2="360" y2="374" stroke="#1E293B" stroke-width="1"/>
+
+      <text x="218.0" y="404" text-anchor="middle" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11"
+        >Mobile  ·  Frontend  ·  Backend</text>
+
+      <text x="64" y="534" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11"
+        >~/dev</text>
+      <text x="106" y="534" fill="#38BDF8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11"
+        >$ build --ship</text>
+      <text x="64" y="554" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11"
+        >TypeScript · Expo · NestJS</text>
+
     </g>
 
-    <!-- LEFT PANEL -->
-    <g id="left-panel" filter="url(#softShadow)">
-      <rect x="24" y="64" width="430" height="522" rx="16" ry="16"
-        fill="rgba(15,23,42,0.48)" stroke="rgba(124,58,237,0.38)" stroke-width="1.2"/>
-      <rect x="24" y="64" width="430" height="36" rx="16" ry="16" fill="#020617" opacity="0.9"/>
-      <rect x="24" y="84" width="430" height="16" fill="#020617" opacity="0.9"/>
-      <text x="42" y="87" fill="#C4B5FD"
+    <!-- Right -->
+    <g filter="url(#shadow)">
+      <rect x="428" y="56" width="724" height="526" rx="12" ry="12"
+        fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <rect x="428" y="56" width="724" height="38" rx="12" ry="12" fill="#0F172A"/>
+      <rect x="428" y="80" width="724" height="14" fill="#0F172A"/>
+      <line x1="428" y1="94" x2="1152" y2="94" stroke="#1E293B" stroke-width="1"/>
+      <text x="446" y="80" fill="#38BDF8"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11" letter-spacing="2.2" font-weight="700">VISUAL.MAP</text>
-      <text x="436" y="87" text-anchor="end" fill="#94A3B8"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="10">profile · ascii</text>
+        font-size="11" letter-spacing="1.6" font-weight="600">PROFILE</text>
 
-      <g clip-path="url(#leftClip)">
-        <g id="ascii-portrait" filter="url(#asciiGlow)">
-<g transform="translate(72,132)">
-<text class="ascii" x="0" y="0.0" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">################%#***+**#%%###########%%%%%%</text>
-<text class="ascii" x="0" y="10.8" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%###############+·.    .·+###########%%%%%%%</text>
-<text class="ascii" x="0" y="21.6" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%############*..··:::::. ·########%%%%%%%%%</text>
-<text class="ascii" x="0" y="32.4" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%##########::*#######*· *#######%%%%%%%%%</text>
-<text class="ascii" x="0" y="43.2" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%##########:##########*·+#######%%%%%%%%%</text>
-<text class="ascii" x="0" y="54.0" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%#########*#***##+++**+:#######%%%%%%%%%</text>
-<text class="ascii" x="0" y="64.8" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%#########**+:+**+++***+*#####%%%%%%@%%%</text>
-<text class="ascii" x="0" y="75.6" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%#########*########**##%###%%%%%@@%%%</text>
-<text class="ascii" x="0" y="86.4" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%%#*##*#####*******+*#%%%%%%%%%%@%%%%</text>
-<text class="ascii" x="0" y="97.2" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%%#*##****+++*+++*++#%%%%%%%%%%%%@%%%</text>
-<text class="ascii" x="0" y="108.0" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%%####*****###*##+:+%%#####%%%%%%%%%%</text>
-<text class="ascii" x="0" y="118.8" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%%#####*##*****+:·+++%%%%%%%%%%%%%%%%</text>
-<text class="ascii" x="0" y="129.6" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%%#####*##*+++::+**· ·*%%#%%%%%%%%%%%</text>
-<text class="ascii" x="0" y="140.4" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%%#######*.+#****:. ...:+*#%%%%%%%%%%</text>
-<text class="ascii" x="0" y="151.2" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%%%###*:·.  ·++·. ...... .·:*#%%@@@%%</text>
-<text class="ascii" x="0" y="162.0" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%%%#*:·.. . ..+#*.....····......·:+*#%%</text>
-<text class="ascii" x="0" y="172.8" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%#·........ . *%:. ..····............:%</text>
-<text class="ascii" x="0" y="183.6" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%: ...........##· ...····............ +</text>
-<text class="ascii" x="0" y="194.4" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%%·...........*%%+...·····.............·</text>
-<text class="ascii" x="0" y="205.2" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%#...........:%%%*...····...............</text>
-<text class="ascii" x="0" y="216.0" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%+...........*%%%*..····.·+:............</text>
-<text class="ascii" x="0" y="226.8" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%+...........#%%%+ .··:·*@@@%·..........</text>
-<text class="ascii" x="0" y="237.6" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%%·..........·#%%%+ ··:·:*++::·..........</text>
-<text class="ascii" x="0" y="248.4" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%*... ....·. :%%%%:.···..      .  .......</text>
-<text class="ascii" x="0" y="259.2" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%%%: .. ...... :%#%%:.··.........    ......</text>
-<text class="ascii" x="0" y="270.0" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%@* ..   ....· :%#%%:.·.........     ......</text>
-<text class="ascii" x="0" y="280.8" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%%@: .    ......:##%#·.........        .....</text>
-<text class="ascii" x="0" y="291.6" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%@+ . .   ......:##%+........        .· ....</text>
-<text class="ascii" x="0" y="302.4" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%#...     *: ...·*%*......      .    *%.  ..</text>
-<text class="ascii" x="0" y="313.2" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="-0.4" xml:space="preserve" opacity="0.90">%#.....  .%: ....:#:....     ...    :@@* .  </text>
-</g>
-<animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="8s" repeatCount="indefinite"/>
-</g>
-        <rect x="24" y="100" width="430" height="2.5" fill="rgba(34,211,238,0.10)"><animate attributeName="y" values="100;499;100" dur="7.5s" repeatCount="indefinite"/></rect>
-      </g>
-
-      <text x="239.0" y="528" text-anchor="middle" fill="#F8FAFC"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="12" font-weight="600">[ PROFILE / ENGINEERING ]</text>
-      <text x="239.0" y="550" text-anchor="middle" fill="#94A3B8"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11">React Native Developer</text>
-      <text x="239.0" y="570" text-anchor="middle" fill="#22D3EE"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11">~/profile $ build --ship</text>
-    </g>
-
-    <!-- RIGHT PANEL -->
-    <g id="right-panel" filter="url(#softShadow)">
-      <rect x="472" y="64" width="684" height="522" rx="16" ry="16"
-        fill="rgba(15,23,42,0.62)" stroke="rgba(124,58,237,0.38)" stroke-width="1.2"/>
-      <rect x="472" y="64" width="684" height="36" rx="16" ry="16" fill="#020617" opacity="0.92"/>
-      <rect x="472" y="84" width="684" height="16" fill="#020617" opacity="0.92"/>
-      <text x="492" y="87" fill="#C4B5FD"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11" letter-spacing="2.2" font-weight="700">SYSTEM.INFO</text>
-      <text x="1136" y="87" text-anchor="end" fill="#94A3B8"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="10">v1.0 · verified</text>
-
-      <text x="508" y="142" fill="#F8FAFC"
+      <text x="464" y="138" fill="#F8FAFC"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
         font-size="28" font-weight="700">Abdelrahman Mahmoud</text>
 
-      <g id="role-rotate" transform="translate(508,172)">
-<text x="0" y="0" fill="#22D3EE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15" font-weight="600" opacity="1">React Native Developer<animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.30;0.333;0.333;0.666;0.999;1" dur="9.600000000000001s" repeatCount="indefinite"/></text>
-<text x="0" y="0" fill="#22D3EE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15" font-weight="600" opacity="0">Mobile Engineer<animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.333;0.343;0.630;0.666;0.999;1" dur="9.600000000000001s" repeatCount="indefinite"/></text>
-<text x="0" y="0" fill="#22D3EE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15" font-weight="600" opacity="0">Full-Stack Developer<animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.666;0.666;0.666;0.676;0.990;1" dur="9.600000000000001s" repeatCount="indefinite"/></text>
-<text x="228" y="0" fill="#A78BFA" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15" font-weight="700" opacity="1">█<animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/></text>
+      <g transform="translate(464,166)">
+<text x="0" y="0" fill="#38BDF8" opacity="1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15" font-weight="500">React Native Developer<animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.30;0.333;0.333;0.666;0.999;1" dur="9.6s" repeatCount="indefinite"/></text>
+<text x="0" y="0" fill="#38BDF8" opacity="0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15" font-weight="500">Mobile Engineer<animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.333;0.343;0.630;0.666;0.999;1" dur="9.6s" repeatCount="indefinite"/></text>
+<text x="0" y="0" fill="#38BDF8" opacity="0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15" font-weight="500">Full-Stack Developer<animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.666;0.666;0.666;0.676;0.990;1" dur="9.6s" repeatCount="indefinite"/></text>
+<text x="215" y="0" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15">| <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/></text>
 </g>
 
-      <g id="info-rows" transform="translate(608,232)">
-<text x="-100" y="-28" fill="#22D3EE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">abdelrahman@dev9:~$ ./profile.sh</text>
-<g><text x="0" y="0" text-anchor="end" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1.2">&gt; FOCUS</text><text x="18" y="0" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">React Native · Expo · TypeScript</text></g>
-<g><text x="0" y="28" text-anchor="end" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1.2">&gt; STACK</text><text x="18" y="28" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">Mobile · Frontend · Backend</text></g>
-<g><text x="0" y="56" text-anchor="end" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1.2">&gt; EDU</text><text x="18" y="56" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">CS &amp; IT · Suez Canal University · 2021–2025</text></g>
-<g><text x="0" y="84" text-anchor="end" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1.2">&gt; BUILDING</text><text x="18" y="84" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">Shop · Healr · Sanay3y</text></g>
-</g>
+      <text x="464" y="198" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12"
+        >$ cat ./about.md</text>
 
-      <text x="508" y="412" fill="#94A3B8"
+      <text x="524" y="224" text-anchor="end" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1">FOCUS</text><text x="540" y="224" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">React Native · Expo · TypeScript</text><text x="524" y="254" text-anchor="end" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1">STACK</text><text x="540" y="254" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">Mobile · Frontend · Backend</text><text x="524" y="284" text-anchor="end" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1">EDU</text><text x="540" y="284" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">CS &amp; IT · Suez Canal University · 2021–2025</text><text x="524" y="314" text-anchor="end" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="1">BUILD</text><text x="540" y="314" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">Shop · Healr · Sanay3y</text>
+
+      <line x1="464" y1="354" x2="1116" y2="354"
+        stroke="#1E293B" stroke-width="1"/>
+
+      <text x="464" y="378" fill="#64748B"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11" letter-spacing="1.8">TECH.STACK</text>
-      <g id="stack-pills" transform="translate(508,440)">
-<g transform="translate(0.0,0)"><rect x="0" y="-14" width="116.8" height="28" rx="8" ry="8" fill="rgba(15,23,42,0.72)" stroke="rgba(34,211,238,0.35)" stroke-width="1"/><circle cx="12" cy="0" r="3.2" fill="#10B981"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="0.0s" repeatCount="indefinite"/></circle><text x="22" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">React Native</text></g>
-<g transform="translate(126.8,0)"><rect x="0" y="-14" width="57.6" height="28" rx="8" ry="8" fill="rgba(15,23,42,0.72)" stroke="rgba(34,211,238,0.35)" stroke-width="1"/><circle cx="12" cy="0" r="3.2" fill="#10B981"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="0.2s" repeatCount="indefinite"/></circle><text x="22" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">Expo</text></g>
-<g transform="translate(194.4,0)"><rect x="0" y="-14" width="102.0" height="28" rx="8" ry="8" fill="rgba(15,23,42,0.72)" stroke="rgba(34,211,238,0.35)" stroke-width="1"/><circle cx="12" cy="0" r="3.2" fill="#10B981"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="0.4s" repeatCount="indefinite"/></circle><text x="22" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">TypeScript</text></g>
-<g transform="translate(306.4,0)"><rect x="0" y="-14" width="65.0" height="28" rx="8" ry="8" fill="rgba(15,23,42,0.72)" stroke="rgba(34,211,238,0.35)" stroke-width="1"/><circle cx="12" cy="0" r="3.2" fill="#10B981"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="0.6s" repeatCount="indefinite"/></circle><text x="22" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">React</text></g>
-<g transform="translate(381.4,0)"><rect x="0" y="-14" width="79.8" height="28" rx="8" ry="8" fill="rgba(15,23,42,0.72)" stroke="rgba(34,211,238,0.35)" stroke-width="1"/><circle cx="12" cy="0" r="3.2" fill="#10B981"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></circle><text x="22" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">Node.js</text></g>
-<g transform="translate(471.2,0)"><rect x="0" y="-14" width="72.4" height="28" rx="8" ry="8" fill="rgba(15,23,42,0.72)" stroke="rgba(34,211,238,0.35)" stroke-width="1"/><circle cx="12" cy="0" r="3.2" fill="#10B981"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="1.0s" repeatCount="indefinite"/></circle><text x="22" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">NestJS</text></g>
+        font-size="11" letter-spacing="1.2">SELECTED WORK</text>
+      <text x="464" y="388" fill="#38BDF8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Shop</text><text x="546" y="388" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Expo e-commerce app with Express API</text><text x="464" y="410" fill="#38BDF8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Healr</text><text x="546" y="410" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Appointment booking mobile app</text><text x="464" y="432" fill="#38BDF8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Sanay3y</text><text x="546" y="432" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Local services marketplace</text>
+
+      <line x1="464" y1="466" x2="1116" y2="466"
+        stroke="#1E293B" stroke-width="1"/>
+
+      <text x="464" y="490" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="11" letter-spacing="1.2">TECHNOLOGIES</text>
+      <g transform="translate(464,516)">
+<g transform="translate(0.0,0)"><rect x="0" y="-12" width="112.8" height="24" rx="6" ry="6" fill="#0B1220" stroke="#334155" stroke-width="1"/><circle cx="10" cy="0" r="2.6" fill="#22C55E"/><text x="18" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">React Native</text></g>
+<g transform="translate(120.8,0)"><rect x="0" y="-12" width="53.6" height="24" rx="6" ry="6" fill="#0B1220" stroke="#334155" stroke-width="1"/><circle cx="10" cy="0" r="2.6" fill="#22C55E"/><text x="18" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">Expo</text></g>
+<g transform="translate(182.4,0)"><rect x="0" y="-12" width="98.0" height="24" rx="6" ry="6" fill="#0B1220" stroke="#334155" stroke-width="1"/><circle cx="10" cy="0" r="2.6" fill="#22C55E"/><text x="18" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">TypeScript</text></g>
+<g transform="translate(288.4,0)"><rect x="0" y="-12" width="61.0" height="24" rx="6" ry="6" fill="#0B1220" stroke="#334155" stroke-width="1"/><circle cx="10" cy="0" r="2.6" fill="#22C55E"/><text x="18" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">React</text></g>
+<g transform="translate(357.4,0)"><rect x="0" y="-12" width="75.8" height="24" rx="6" ry="6" fill="#0B1220" stroke="#334155" stroke-width="1"/><circle cx="10" cy="0" r="2.6" fill="#22C55E"/><text x="18" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">Node.js</text></g>
+<g transform="translate(441.2,0)"><rect x="0" y="-12" width="68.4" height="24" rx="6" ry="6" fill="#0B1220" stroke="#334155" stroke-width="1"/><circle cx="10" cy="0" r="2.6" fill="#22C55E"/><text x="18" y="4" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">NestJS</text></g>
 </g>
 
-      <text x="508" y="532" fill="#94A3B8"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11" letter-spacing="1.8">LINKS</text>
-      <g id="links" transform="translate(508,558)">
-<a href="https://github.com/Abdelrahman-Dev9" target="_blank" rel="noopener noreferrer"><text x="0" y="0" fill="#A78BFA" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" text-decoration="underline">GitHub</text></a>
-<text x="64" y="0" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12"> · </text>
-<a href="https://www.linkedin.com/in/abdelrahman-elnagar-ab602b291/" target="_blank" rel="noopener noreferrer"><text x="86" y="0" fill="#A78BFA" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" text-decoration="underline">LinkedIn</text></a>
-<text x="164" y="0" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12"> · </text>
-<a href="https://my-portfolio-olive-theta-35.vercel.app/" target="_blank" rel="noopener noreferrer"><text x="186" y="0" fill="#A78BFA" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" text-decoration="underline">Portfolio</text></a>
-</g>
+      <line x1="464" y1="556" x2="1116" y2="556"
+        stroke="#1E293B" stroke-width="1"/>
 
-      <text x="508" y="564" fill="#94A3B8"
+      <text x="464" y="580" fill="#64748B"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="10.5">Shop: Expo e-commerce · Healr: appointments · Sanay3y: services marketplace</text>
+        font-size="11" letter-spacing="1.2">CONNECT</text>
+      <a href="https://github.com/Abdelrahman-Dev9" target="_blank" rel="noopener noreferrer"><text x="464" y="556" fill="#38BDF8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">GitHub</text></a><text x="521.6" y="556" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">/</text><a href="https://www.linkedin.com/in/abdelrahman-elnagar-ab602b291/" target="_blank" rel="noopener noreferrer"><text x="537.6" y="556" fill="#38BDF8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">LinkedIn</text></a><text x="610.4" y="556" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">/</text><a href="https://my-portfolio-olive-theta-35.vercel.app/" target="_blank" rel="noopener noreferrer"><text x="626.4" y="556" fill="#38BDF8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Portfolio</text></a>
     </g>
 
-    <rect x="1" y="1" width="1178" height="608" rx="22" ry="22"
-      fill="none" stroke="url(#borderShimmer)" stroke-width="1.25"/>
+    <rect x="0.75" y="0.75" width="1178.5" height="608.5" rx="18" ry="18"
+      fill="none" stroke="#334155" stroke-width="1.2"/>
   </g>
 </svg>
