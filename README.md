@@ -36,7 +36,8 @@ I build mobile-first products with a strong TypeScript foundation — from Expo 
 
 ### Education
 
-**Computer Science and Information Technology** — Suez Canal University (2021–2025)
+**Bachelor of Science — Computer Science & Informatics**  
+Suez Canal University — Faculty of Computers and Informatics (2021–2025)
 
 ---
 
@@ -45,6 +46,26 @@ I build mobile-first products with a strong TypeScript foundation — from Expo 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Abdelrahman-Dev9&show_icons=true&theme=transparent&hide_border=true" height="150" alt="GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelrahman-Dev9&layout=compact&theme=transparent&hide_border=true" height="150" alt="Top languages" />
+</p>
+
+<h2 align="center">GitHub Contributions</h2>
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Abdelrahman-Dev9/github-snake/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Abdelrahman-Dev9/github-snake/output/github-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/Abdelrahman-Dev9/github-snake/output/github-snake.svg"
+      alt="GitHub Contribution Snake"
+      width="100%"
+    />
+  </picture>
 </p>
 
 ---
