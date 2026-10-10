@@ -1,275 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700"
-  role="img" aria-label="Abdelrahman Mahmoud, React Native and Full-Stack Developer from Mansoura, Egypt. Skills include React Native, Expo, TypeScript, React, Next.js, Node.js, NestJS. Education: Computer Science and Informatics, Suez Canal University, 2021-2025.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="600" viewBox="0 0 1120 600"
+  role="img" aria-label="Abdelrahman Mahmoud — React Native and Full-Stack Developer, Mansoura, Egypt. Mobile, frontend, and backend with TypeScript. Computer Science and Informatics, Suez Canal University, 2021-2025.">
   <title>Abdelrahman Mahmoud — React Native Developer</title>
-  <desc>Abdelrahman Mahmoud, React Native and Full-Stack Developer from Mansoura, Egypt. Skills include React Native, Expo, TypeScript, React, Next.js, Node.js, NestJS. Education: Computer Science and Informatics, Suez Canal University, 2021-2025.</desc>
+  <desc>Abdelrahman Mahmoud — React Native and Full-Stack Developer, Mansoura, Egypt. Mobile, frontend, and backend with TypeScript. Computer Science and Informatics, Suez Canal University, 2021-2025.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070B14"/>
-      <stop offset="100%" stop-color="#0B1220"/>
+      <stop offset="0%" stop-color="#05080F"/><stop offset="100%" stop-color="#0B1220"/>
     </linearGradient>
-    <radialGradient id="g1" cx="15%" cy="20%" r="50%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
-      <animate attributeName="cx" values="15%;28%;15%" dur="16s" repeatCount="indefinite"/>
+    <radialGradient id="g1" cx="18%" cy="12%" r="42%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="g2" cx="85%" cy="75%" r="45%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
-      <animate attributeName="cy" values="75%;60%;75%" dur="18s" repeatCount="indefinite"/>
+    <radialGradient id="g2" cx="88%" cy="88%" r="38%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.2"/>
+    <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.3"/>
       <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#34D399" stop-opacity="0.2"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="100%;200%;100%" dur="10s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.3"/>
+      <animate attributeName="x1" values="0%;70%;0%" dur="11s" repeatCount="indefinite"/>
     </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="rgba(148,163,184,0.045)" stroke-width="1"/>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="rgba(148,163,184,0.035)" stroke-width="1"/>
     </pattern>
-    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
-      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/>
+    <filter id="shadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000" flood-opacity="0.38"/>
     </filter>
-    <clipPath id="frame"><rect width="1180" height="700" rx="22" ry="22"/></clipPath>
-    <clipPath id="portraitClip"><rect x="155" y="70" width="250" height="430" rx="14" ry="14"/></clipPath>
+    <clipPath id="frame"><rect width="1120" height="600" rx="16" ry="16"/></clipPath>
+    <clipPath id="pClip">
+      <rect x="104" y="58" width="292" height="444" rx="10" ry="10"/>
+    </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1180" height="700" fill="url(#bg)"/>
-    <rect width="1180" height="700" fill="url(#g1)"/>
-    <rect width="1180" height="700" fill="url(#g2)"/>
-    <rect width="1180" height="700" fill="url(#grid)"/>
+    <rect width="1120" height="600" fill="url(#bg)"/>
+    <rect width="1120" height="600" fill="url(#g1)"/>
+    <rect width="1120" height="600" fill="url(#g2)"/>
+    <rect width="1120" height="600" fill="url(#grid)"/>
 
-    <!-- Main glass card -->
     <g filter="url(#shadow)">
-      <rect x="20" y="18" width="1140" height="664" rx="20" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
-      <rect x="20" y="18" width="1140" height="664" rx="20" fill="none" stroke="url(#borderGlow)" stroke-width="1.4" opacity="0.85"/>
+      <rect x="14" y="12" width="1092" height="576" rx="14" fill="#0F172A" stroke="#1E293B"/>
+      <rect x="14" y="12" width="1092" height="576" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2" opacity="0.85"/>
 
-      <!-- Title bar -->
-      <rect x="20" y="18" width="1140" height="42" rx="20" fill="#020617"/>
-      <rect x="20" y="40" width="1140" height="20" fill="#020617"/>
-      <line x1="20" y1="60" x2="1160" y2="60" stroke="#1E293B" stroke-width="1"/>
-      <circle cx="48" cy="39" r="5.5" fill="#FF5F57"/>
-      <circle cx="68" cy="39" r="5.5" fill="#FEBC2E"/>
-      <circle cx="88" cy="39" r="5.5" fill="#28C840"/>
-      <text x="590" y="44" text-anchor="middle" fill="#94A3B8"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12"
-        >~/abdelrahman-dev9</text>
-
-      <!-- Left mantra rail -->
-      <g id="mantra"><text x="48" y="120" fill="#94A3B8" opacity="1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="400">Build<animate attributeName="opacity" values="0.35;1;0.35" dur="4s" begin="0.00s" repeatCount="indefinite"/></text><text x="48" y="156" fill="#94A3B8" opacity="1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="400">Learn<animate attributeName="opacity" values="0.35;1;0.35" dur="4s" begin="0.45s" repeatCount="indefinite"/></text><text x="48" y="192" fill="#94A3B8" opacity="1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="400">Create<animate attributeName="opacity" values="0.35;1;0.35" dur="4s" begin="0.90s" repeatCount="indefinite"/></text><text x="48" y="228" fill="#94A3B8" opacity="1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="400">Improve<animate attributeName="opacity" values="0.35;1;0.35" dur="4s" begin="1.35s" repeatCount="indefinite"/></text><text x="48" y="264" fill="#22D3EE" opacity="1" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" font-weight="600">Repeat<animate attributeName="opacity" values="0.35;1;0.35" dur="4s" begin="1.80s" repeatCount="indefinite"/></text><text x="108" y="264" fill="#A78BFA" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" font-weight="700">&gt;_<animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/></text></g>
-
-      <!-- Portrait frame -->
-      <rect x="155" y="78" width="250" height="420" rx="16" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-      <g clip-path="url(#portraitClip)">
-        <g id="ascii" transform="translate(168,78)">
-<text x="0" y="0.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="0" y="9.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@@@@@@@@%%#%@@@@@@@@@@@@@@@@@</text>
-<text x="0" y="19.6" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@%@@@@@@@@@%:    .#@@@@@@@@@@@@@@@</text>
-<text x="0" y="29.4" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@%%@@@@@@@*        +@@@@@@@@@@@@@@</text>
-<text x="0" y="39.2" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@%%%%@%%@%  ··:::·  #@@@@@@@@@@@@@</text>
-<text x="0" y="49.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@%%%%%%%@:.#%%@@%#: *@%%%%@@@@@@@@</text>
-<text x="0" y="58.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@%%%%%%@:#%@@@@%%#.+@%%%%@@@@@@@@</text>
-<text x="0" y="68.6" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@%%%%%+%@@@@@@%%+·%%%%%@@@@@@@@</text>
-<text x="0" y="78.4" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@%%%#%#%@@#+*##·%%%%%@@@@@@@@</text>
-<text x="0" y="88.2" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@%%%##+:*#:++*#+#@@@%@@@@@@@@</text>
-<text x="0" y="98.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@%%%#%*:#%**+##*#@@@@@@@@@@@@</text>
-<text x="0" y="107.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@%%%%%%%%@%@@@##%%@@@@@@@@@@@</text>
-<text x="0" y="117.6" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@%%%%%%@@@@##@%**%@@@@@@@@@@@@</text>
-<text x="0" y="127.4" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@%#%##%%#**+**#*#@@@@@@@@@@@@@</text>
-<text x="0" y="137.2" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@%%%####+*##+*#:%@@@@@@@@@@@@@</text>
-<text x="0" y="147.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@%%%%###%####%+·%@@@@@@@@@@@@@</text>
-<text x="0" y="156.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@%%%%#%##@#%%*·:%@@@@@@@@@@@@@</text>
-<text x="0" y="166.6" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@%%@%#%%+*#*:.:#:%@@@@@@@@@@@@</text>
-<text x="0" y="176.4" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@%@%%%@#+:::+#* .%@@@@@@@@@@@</text>
-<text x="0" y="186.2" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@%@%%%%:%***#*   .#@@@@@@@@@@</text>
-<text x="0" y="196.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@%@@%%: *%%#:      ·*@@@@@@@@</text>
-<text x="0" y="205.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@@@@%:    +*·         .+%@@@@@</text>
-<text x="0" y="215.6" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@@@%*·     ·**             ·+%@@</text>
-<text x="0" y="225.4" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@@#:        +@@.     .         ·*</text>
-<text x="0" y="235.2" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@%          ·@·     ..           </text>
-<text x="0" y="245.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@+          +%.    ...           </text>
-<text x="0" y="254.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@:          %@+    ...           </text>
-<text x="0" y="264.6" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@:         :@@#   ...            </text>
-<text x="0" y="274.4" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@@.         #@@#   ...            </text>
-<text x="0" y="284.2" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@%          %@@#  ....            </text>
-<text x="0" y="294.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@%         .@@@#  ... *%+         </text>
-<text x="0" y="303.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@%         ·@@@* ....*@@@#        </text>
-<text x="0" y="313.6" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@*         :@@@* ...:%#*+:        </text>
-<text x="0" y="323.4" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@·         +@@@+ ...              </text>
-<text x="0" y="333.2" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@@.         *@@@+ ...              </text>
-<text x="0" y="343.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@%          *@@@+ ..               </text>
-<text x="0" y="352.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@:          #@@@: .                </text>
-<text x="0" y="362.6" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@@.          #@@@:                  </text>
-<text x="0" y="372.4" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@%           #@@@.                  </text>
-<text x="0" y="382.2" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">@:      .    +@@#                   </text>
-<text x="0" y="392.0" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">%      .+    :@@+              *+   </text>
-<text x="0" y="401.8" fill="#67E8F9" opacity="0.9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.2" letter-spacing="-0.15" xml:space="preserve">*      :%    .%@.              @#   </text>
-<animateTransform attributeName="transform" type="translate" values="168,78;168,76;168,78" dur="7s" repeatCount="indefinite"/>
-</g>
-      </g>
-
-      <!-- Identity column -->
-      <text x="430" y="110" fill="#F8FAFC"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="30" font-weight="700">Abdelrahman <tspan fill="#A78BFA">Mahmoud</tspan></text>
-
-      <text x="430" y="142" fill="#22D3EE"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="15" font-weight="600">React Native Developer</text>
-      <text x="655" y="142" fill="#A78BFA"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="14">|
-        <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/>
-      </text>
-
-      <text x="430" y="178" fill="#94A3B8"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">
-        Building cross-platform mobile &amp; web apps with TypeScript.
-      </text>
-      <text x="430" y="196" fill="#94A3B8"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">
-        From Expo clients to NestJS APIs — clean code, real products.
-      </text>
-
-      <text x="430" y="232" fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">LOCATION</text>
-      <text x="430" y="250" fill="#F8FAFC"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Mansoura, Egypt</text>
-
-      <text x="580" y="232" fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">EDUCATION</text>
-      <text x="580" y="250" fill="#F8FAFC"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">CS &amp; IT · Suez Canal Univ. · 2021–2025</text>
-
-      <g transform="translate(430,280)">
-<g transform="translate(0.0,0)"><rect x="0" y="-10" width="93.2" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">React Native</text></g>
-<g transform="translate(99.2,0)"><rect x="0" y="-10" width="47.0" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">React</text></g>
-<g transform="translate(152.2,0)"><rect x="0" y="-10" width="60.2" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Node.js</text></g>
-<g transform="translate(218.4,0)"><rect x="0" y="-10" width="80.0" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">TypeScript</text></g>
-</g>
-
-      <!-- Tech stack cards -->
-      <text x="780" y="100" fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11" letter-spacing="1.5">TECH STACK</text>
-      
-        <g transform="translate(780,118)">
-          <rect width="148" height="118" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-          <circle cx="22" cy="22" r="6" fill="#22D3EE" opacity="0.9">
-            <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" repeatCount="indefinite"/>
-          </circle>
-          <text x="36" y="26" fill="#F8FAFC"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="12" font-weight="600">Mobile</text>
-          <g transform="translate(12,52)">
-<g transform="translate(0.0,0)"><rect x="0" y="-10" width="93.2" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">React Native</text></g>
-<g transform="translate(0.0,26)"><rect x="0" y="-10" width="40.4" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Expo</text></g>
-<g transform="translate(0.0,52)"><rect x="0" y="-10" width="80.0" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">TypeScript</text></g>
-</g>
-        </g>
-      
-        <g transform="translate(948,118)">
-          <rect width="148" height="118" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-          <circle cx="22" cy="22" r="6" fill="#A78BFA" opacity="0.9">
-            <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" repeatCount="indefinite"/>
-          </circle>
-          <text x="36" y="26" fill="#F8FAFC"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="12" font-weight="600">Frontend</text>
-          <g transform="translate(12,52)">
-<g transform="translate(0.0,0)"><rect x="0" y="-10" width="47.0" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">React</text></g>
-<g transform="translate(53.0,0)"><rect x="0" y="-10" width="60.2" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Next.js</text></g>
-<g transform="translate(0.0,26)"><rect x="0" y="-10" width="66.8" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Tailwind</text></g>
-</g>
-        </g>
-      
-        <g transform="translate(780,252)">
-          <rect width="148" height="118" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-          <circle cx="22" cy="22" r="6" fill="#34D399" opacity="0.9">
-            <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" repeatCount="indefinite"/>
-          </circle>
-          <text x="36" y="26" fill="#F8FAFC"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="12" font-weight="600">Backend</text>
-          <g transform="translate(12,52)">
-<g transform="translate(0.0,0)"><rect x="0" y="-10" width="60.2" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Node.js</text></g>
-<g transform="translate(0.0,26)"><rect x="0" y="-10" width="60.2" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Express</text></g>
-<g transform="translate(66.2,26)"><rect x="0" y="-10" width="53.6" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">NestJS</text></g>
-</g>
-        </g>
-      
-        <g transform="translate(948,252)">
-          <rect width="148" height="118" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-          <circle cx="22" cy="22" r="6" fill="#F472B6" opacity="0.9">
-            <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" repeatCount="indefinite"/>
-          </circle>
-          <text x="36" y="26" fill="#F8FAFC"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="12" font-weight="600">Tools</text>
-          <g transform="translate(12,52)">
-<g transform="translate(0.0,0)"><rect x="0" y="-10" width="33.8" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Git</text></g>
-<g transform="translate(39.8,0)"><rect x="0" y="-10" width="53.6" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Prisma</text></g>
-<g transform="translate(0.0,26)"><rect x="0" y="-10" width="53.6" height="20" rx="5" fill="#0B1220" stroke="#334155" stroke-width="1"/><text x="7" y="4" fill="#F8FAFC" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10">Vercel</text></g>
-</g>
-        </g>
-
-      <!-- Social -->
-      <text x="430" y="520" fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11" letter-spacing="1.5">CONNECT</text>
-      <a href="https://github.com/Abdelrahman-Dev9" target="_blank" rel="noopener noreferrer"><text x="430" y="548" fill="#22D3EE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">GitHub</text></a><text x="485.0" y="548" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">·</text><a href="https://www.linkedin.com/in/abdelrahman-elnagar-ab602b291/" target="_blank" rel="noopener noreferrer"><text x="503.0" y="548" fill="#22D3EE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">LinkedIn</text></a><text x="573.0" y="548" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">·</text><a href="https://my-portfolio-olive-theta-35.vercel.app/" target="_blank" rel="noopener noreferrer"><text x="591.0" y="548" fill="#22D3EE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Portfolio</text></a>
-
-      <!-- Featured projects -->
-      <text x="48" y="560" fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-        font-size="11" letter-spacing="1.5">FEATURED PROJECTS</text>
-      
-        <g transform="translate(48,580)">
-          <rect width="260" height="52" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-          <rect x="0" y="0" width="4" height="52" rx="2" fill="#22D3EE"/>
-          <text x="18" y="22" fill="#F8FAFC"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="13" font-weight="600">Shop</text>
-          <text x="18" y="40" fill="#94A3B8"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="11">Expo e-commerce</text>
-        </g>
-        <g transform="translate(323,580)">
-          <rect width="260" height="52" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-          <rect x="0" y="0" width="4" height="52" rx="2" fill="#A78BFA"/>
-          <text x="18" y="22" fill="#F8FAFC"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="13" font-weight="600">Healr</text>
-          <text x="18" y="40" fill="#94A3B8"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="11">Appointments</text>
-        </g>
-        <g transform="translate(598,580)">
-          <rect width="260" height="52" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-          <rect x="0" y="0" width="4" height="52" rx="2" fill="#34D399"/>
-          <text x="18" y="22" fill="#F8FAFC"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="13" font-weight="600">Sanay3y</text>
-          <text x="18" y="40" fill="#94A3B8"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="11">Services market</text>
-        </g>
-        <g transform="translate(873,580)">
-          <rect width="260" height="52" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-          <rect x="0" y="0" width="4" height="52" rx="2" fill="#F472B6"/>
-          <text x="18" y="22" fill="#F8FAFC"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="13" font-weight="600">Portfolio</text>
-          <text x="18" y="40" fill="#94A3B8"
-            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
-            font-size="11">Personal site</text>
-        </g>
-
-      <text x="1140" y="655" text-anchor="end" fill="#94A3B8"
+      <rect x="14" y="12" width="1092" height="34" rx="14" fill="#020617"/>
+      <rect x="14" y="28" width="1092" height="18" fill="#020617"/>
+      <line x1="14" y1="46" x2="1106" y2="46" stroke="#1E293B"/>
+      <circle cx="34" cy="29.0" r="4.5" fill="#FF5F57"/>
+      <circle cx="50" cy="29.0" r="4.5" fill="#FEBC2E"/>
+      <circle cx="66" cy="29.0" r="4.5" fill="#28C840"/>
+      <text x="560.0" y="33.0" text-anchor="middle" fill="#94A3B8"
         font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11"
-        >Better code -&gt; Better tomorrow -&gt;</text>
+        >~/abdelrahman-dev9</text>
+      <circle cx="1048" cy="29.0" r="3" fill="#34D399"/>
+      <text x="1094" y="33.0" text-anchor="end" fill="#34D399"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10"
+        >online</text>
+
+      <text x="26" y="72.0" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5" font-weight="500">Build<animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" begin="0.0s" repeatCount="indefinite"/></text><text x="26" y="178.0" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5" font-weight="500">Learn<animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" begin="0.3s" repeatCount="indefinite"/></text><text x="26" y="284.0" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5" font-weight="500">Create<animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></text><text x="26" y="390.0" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5" font-weight="500">Improve<animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" begin="0.9s" repeatCount="indefinite"/></text><text x="26" y="496.0" fill="#22D3EE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5" font-weight="700">Repeat<animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></text><text x="78" y="496.0" fill="#A78BFA" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" font-weight="700">&gt;_<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></text>
+
+      <rect x="104" y="58" width="292" height="444" rx="10" fill="#111827" stroke="#1E293B"/>
+      <g clip-path="url(#pClip)"><g transform="translate(110.0,66.0)"><text x="0" y="0.0" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="0" y="10.8" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@#****#@@@@@@@@@@@@@@@@@@@@@@@</text><text x="0" y="21.6" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@%%%%@@@@@@@@@@*:      :*@@@@@@@@@@@@@@@@@@@@@</text><text x="0" y="32.4" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@%#%%%%@%%%@%:     .    :%@@@@@@@@@@@@@@@@@@@</text><text x="0" y="43.2" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@%%%%%%%%%%%: -+*+***+-  =@%%%%%%@@@@@@@@@@@@</text><text x="0" y="54.0" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@%%%%%%%%@*.#%@@@@@%%#- -@%%%%%%@@@@@@@@@@@@</text><text x="0" y="64.8" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@%@%%%%%%@++@%%@@@@@%##-.%%%%%%%@@@@@@@@@@@@</text><text x="0" y="75.6" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@%%%%%%*#%%%@@@%*####.*%%%%%%@@@@@@@@@@@@</text><text x="0" y="86.4" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@%%%%##*+=+%*-=+=*#-*%@%%%%@@@@@@@@@@@@</text><text x="0" y="97.2" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@%%%%###+=+%#+*=*##+*%@@@@@@@@@@@@@@@@@</text><text x="0" y="108.0" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@%%%%#%%##%@@%%%@%#+%#@@@@@@@@@@@@@@@@@</text><text x="0" y="118.8" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@%##%#%#@@@%@%#*%%%*=%%@@@@@@@@@@@@@@@@@</text><text x="0" y="129.6" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@%##%###%%**++=+=**+*@@@@@@@@@@@@@@@@@@@</text><text x="0" y="140.4" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@#%%#*###++##*+*#+-#@@@@@@@@@@@@@@@@@@@</text><text x="0" y="151.2" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@%%%%###*%%##*%%*-:%@@@@@@@@@@@@@@@@@@@</text><text x="0" y="162.0" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@#%%%##%#=###%#=.:*+@@@@@@@@@@@@@@@@@@@</text><text x="0" y="172.8" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@%%@%##%@#===-::-*#.:#@@@@@@@@@@@@@@@@@</text><text x="0" y="183.6" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@%%@%##%%+%*++=+#*:   +@@@@@@@@@@@@@@@@</text><text x="0" y="194.4" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@%%@%%%%= +%###*-      .=*%@@@@@@@@@@@@</text><text x="0" y="205.2" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@@@@%*-.   -**=.          .-*%@@@@@@@@@</text><text x="0" y="216.0" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@@@@#+-.     .=*+                :=*%@@@@@</text><text x="0" y="226.8" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@@*-.         .@@%:      ..           :=%@@</text><text x="0" y="237.6" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@+             #%.       ..             :@@</text><text x="0" y="248.4" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@@.            :@#:     ....              *@</text><text x="0" y="259.2" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@%             #@%*    ....               =@</text><text x="0" y="270.0" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@#            -@@@#   .....               :@</text><text x="0" y="280.8" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@=            #@@@#   .....                *</text><text x="0" y="291.6" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@-           .%@@@#  ..... =+:              </text><text x="0" y="302.4" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@-           :@@@@*  .....*@@@#:            </text><text x="0" y="313.2" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@@.           =@@@@+ .....#@%##*-            </text><text x="0" y="324.0" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@+            +@@@@= ..:..:.                 </text><text x="0" y="334.8" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@@=            *@@@@= ....                    </text><text x="0" y="345.6" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@%.            #@@@@- ..                      </text><text x="0" y="356.4" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@=             #@@@@-                         </text><text x="0" y="367.2" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@@.             #@@@@:                         </text><text x="0" y="378.0" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@@*              #@@@#                          </text><text x="0" y="388.8" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@%        ::     +@@@-                  =.      </text><text x="0" y="399.6" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@=        *+     :%@%                  -@-      </text><text x="0" y="410.4" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@-        @*      *@=                  %@%      </text><text x="0" y="421.2" fill="#7DD3FC" opacity="0.93" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.2" letter-spacing="0" xml:space="preserve">@@@+        %=      -%.                 :@@@*     </text><animateTransform attributeName="transform" type="translate" values="110.0,66.0;110.0,64.8;110.0,66.0" dur="6s" repeatCount="indefinite"/></g></g>
+
+      <!-- IDENTITY (even vertical spacing across main_h) -->
+      <text x="406" y="82" fill="#F8FAFC"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="24" font-weight="700">Abdelrahman <tspan fill="#A78BFA">Mahmoud</tspan></text>
+      <text x="406" y="104" fill="#22D3EE"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="13" font-weight="600">React Native &amp; Full-Stack Developer</text>
+      <text x="674" y="104" fill="#A78BFA"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">|
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </text>
+
+      <text x="406" y="128" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11"
+        >Cross-platform mobile &amp; web apps with TypeScript.</text>
+      <text x="406" y="144" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11"
+        >Expo clients to NestJS APIs — clean code, shipped products.</text>
+
+      <line x1="406" y1="158" x2="725.3599999999999" y2="158" stroke="#1E293B"/>
+
+      <text x="406" y="176" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">LOCATION</text>
+      <text x="406" y="192" fill="#F8FAFC"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5">Mansoura, Egypt</text>
+      <text x="554" y="176" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">EDUCATION</text>
+      <text x="554" y="192" fill="#F8FAFC"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5">CS &amp; IT · Suez Canal · 2021–2025</text>
+
+      <text x="406" y="214" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">EXPERIENCE</text>
+      <text x="406" y="230" fill="#F8FAFC"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5"
+        >Freelance RN &amp; Full-Stack · 2023–Present</text>
+
+      <g transform="translate(406,248)">
+<g transform="translate(0.0,0)"><rect width="86.6" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">React Native</text></g>
+<g transform="translate(91.6,0)"><rect width="36.2" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Expo</text></g>
+<g transform="translate(132.8,0)"><rect width="74.0" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">TypeScript</text></g>
+<g transform="translate(211.8,0)"><rect width="42.5" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">React</text></g>
+<g transform="translate(259.3,0)"><rect width="55.1" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Node.js</text></g>
+<g transform="translate(0.0,22)"><rect width="48.8" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">NestJS</text></g>
+<g transform="translate(53.8,22)"><rect width="48.8" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Prisma</text></g>
+</g>
+
+      <text x="406" y="306" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="9.5" letter-spacing="1.1">CONNECT</text>
+      <a href="https://github.com/Abdelrahman-Dev9" target="_blank" rel="noopener noreferrer">
+        <text x="406" y="326" fill="#22D3EE"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">GitHub</text></a>
+      <text x="462" y="326" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">·</text>
+      <a href="https://www.linkedin.com/in/abdelrahman-elnagar-ab602b291/" target="_blank" rel="noopener noreferrer">
+        <text x="476" y="326" fill="#22D3EE"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">LinkedIn</text></a>
+      <text x="546" y="326" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">·</text>
+      <a href="https://my-portfolio-olive-theta-35.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <text x="560" y="326" fill="#22D3EE"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">Portfolio</text></a>
+
+      <text x="406" y="354" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.5"
+        >Arabic (Native) · English (B2)</text>
+      <text x="406" y="372" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10"
+        >Better code -&gt; Better tomorrow</text>
+
+      <!-- TECH -->
+      <text x="739.3599999999999" y="68" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="9.5" letter-spacing="1.2">TECH STACK</text>
+      <g transform="translate(739.3599999999999,76)">
+          <rect width="173.32000000000002" height="209.0" rx="9" fill="#111827" stroke="#1E293B"/>
+          <circle cx="12" cy="14" r="3.5" fill="#22D3EE">
+            <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+          </circle>
+          <text x="22" y="17" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Mobile</text>
+          <g transform="translate(8,30)">
+<g transform="translate(0.0,0)"><rect width="86.6" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">React Native</text></g>
+<g transform="translate(90.6,0)"><rect width="36.2" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Expo</text></g>
+<g transform="translate(0.0,22)"><rect width="74.0" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">TypeScript</text></g>
+</g>
+        </g>
+      <g transform="translate(920.68,76)">
+          <rect width="173.32000000000002" height="209.0" rx="9" fill="#111827" stroke="#1E293B"/>
+          <circle cx="12" cy="14" r="3.5" fill="#A78BFA">
+            <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+          </circle>
+          <text x="22" y="17" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Frontend</text>
+          <g transform="translate(8,30)">
+<g transform="translate(0.0,0)"><rect width="42.5" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">React</text></g>
+<g transform="translate(46.5,0)"><rect width="55.1" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Next.js</text></g>
+<g transform="translate(0.0,22)"><rect width="61.4" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Tailwind</text></g>
+</g>
+        </g>
+      <g transform="translate(739.3599999999999,293.0)">
+          <rect width="173.32000000000002" height="209.0" rx="9" fill="#111827" stroke="#1E293B"/>
+          <circle cx="12" cy="14" r="3.5" fill="#34D399">
+            <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+          </circle>
+          <text x="22" y="17" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Backend</text>
+          <g transform="translate(8,30)">
+<g transform="translate(0.0,0)"><rect width="55.1" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Node.js</text></g>
+<g transform="translate(59.1,0)"><rect width="55.1" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Express</text></g>
+<g transform="translate(0.0,22)"><rect width="48.8" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">NestJS</text></g>
+</g>
+        </g>
+      <g transform="translate(920.68,293.0)">
+          <rect width="173.32000000000002" height="209.0" rx="9" fill="#111827" stroke="#1E293B"/>
+          <circle cx="12" cy="14" r="3.5" fill="#F472B6">
+            <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+          </circle>
+          <text x="22" y="17" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Tools</text>
+          <g transform="translate(8,30)">
+<g transform="translate(0.0,0)"><rect width="29.9" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Git</text></g>
+<g transform="translate(33.9,0)"><rect width="48.8" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Prisma</text></g>
+<g transform="translate(86.7,0)"><rect width="48.8" height="18" rx="4" fill="#0B1220" stroke="#334155"/><text x="5" y="13" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">Vercel</text></g>
+</g>
+        </g>
+
+      <text x="104" y="514" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5" letter-spacing="1.3">FEATURED PROJECTS</text>
+        <g transform="translate(26.0,520)">
+          <rect width="172.2" height="56" rx="8" fill="#111827" stroke="#1E293B"/>
+          <rect width="3" height="56" rx="1.5" fill="#22D3EE"/>
+          <text x="12" y="23" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Shop</text>
+          <text x="12" y="41" fill="#94A3B8"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="9.5">E-commerce · Expo</text>
+        </g>
+        <g transform="translate(205.2,520)">
+          <rect width="172.2" height="56" rx="8" fill="#111827" stroke="#1E293B"/>
+          <rect width="3" height="56" rx="1.5" fill="#A78BFA"/>
+          <text x="12" y="23" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Healr</text>
+          <text x="12" y="41" fill="#94A3B8"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="9.5">Appointments · RN</text>
+        </g>
+        <g transform="translate(384.3,520)">
+          <rect width="172.2" height="56" rx="8" fill="#111827" stroke="#1E293B"/>
+          <rect width="3" height="56" rx="1.5" fill="#34D399"/>
+          <text x="12" y="23" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Sanay3y</text>
+          <text x="12" y="41" fill="#94A3B8"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="9.5">Services · Nest</text>
+        </g>
+        <g transform="translate(563.5,520)">
+          <rect width="172.2" height="56" rx="8" fill="#111827" stroke="#1E293B"/>
+          <rect width="3" height="56" rx="1.5" fill="#FBBF24"/>
+          <text x="12" y="23" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Shoply</text>
+          <text x="12" y="41" fill="#94A3B8"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="9.5">Storefront · React</text>
+        </g>
+        <g transform="translate(742.7,520)">
+          <rect width="172.2" height="56" rx="8" fill="#111827" stroke="#1E293B"/>
+          <rect width="3" height="56" rx="1.5" fill="#F472B6"/>
+          <text x="12" y="23" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Chat Flow</text>
+          <text x="12" y="41" fill="#94A3B8"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="9.5">Realtime chat</text>
+        </g>
+        <g transform="translate(921.8,520)">
+          <rect width="172.2" height="56" rx="8" fill="#111827" stroke="#1E293B"/>
+          <rect width="3" height="56" rx="1.5" fill="#22D3EE"/>
+          <text x="12" y="23" fill="#F8FAFC"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="11" font-weight="600">Portfolio</text>
+          <text x="12" y="41" fill="#94A3B8"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="9.5">Personal site</text>
+        </g>
     </g>
   </g>
 </svg>
